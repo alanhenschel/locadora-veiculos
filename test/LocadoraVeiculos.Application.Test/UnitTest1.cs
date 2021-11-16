@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace LocadoraVeiculos.Domain
+namespace LocadoraVeiculos.Application.Test
 {
     public class UnitTest1
     {

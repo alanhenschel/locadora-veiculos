@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace LocadoraVeiculos.Application
+namespace LocadoraVeiculos.Persistence.Test
 {
     public class UnitTest1
     {

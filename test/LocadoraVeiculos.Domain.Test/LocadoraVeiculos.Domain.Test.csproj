@@ -19,4 +19,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\LocadoraVeiculos.Domain\LocadoraVeiculos.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

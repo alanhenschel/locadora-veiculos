@@ -7,4 +7,8 @@
   <ItemGroup>
     <ProjectReference Include="..\LocadoraVeiculos.Domain\LocadoraVeiculos.Domain.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+  </ItemGroup>
 </Project>
