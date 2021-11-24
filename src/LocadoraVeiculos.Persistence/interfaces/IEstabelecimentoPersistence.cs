@@ -5,7 +5,7 @@ namespace LocadoraVeiculos.Persistence.interfaces
 {
     public interface IEstabelecimentoPersistence
     {
-        Task<Estabelecimento[]> GetAllEstabelecimentosAsync();
+        Task<Estabelecimento[]> GetAllEstabelecimentosAsync(bool includeVeiculos);
         Task<Estabelecimento> GetEstabelecimentoByIdAsync(int EstabelecimentoId);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace LocadoraVeiculos.Domain
@@ -20,6 +21,7 @@ namespace LocadoraVeiculos.Domain
         [Required(ErrorMessage = "O campo {0} é obrigatório.")]
         [Range(1, int.MaxValue, ErrorMessage = "Valor precisa ser maior que 0.")]
         public int QtdVagasCarros {get; set; }
+        public IEnumerable<Veiculo> Veiculos { get; set; }
 
     }
 }
